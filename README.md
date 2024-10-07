@@ -13,7 +13,7 @@ This project is building an app that will present educational content and a real
 And more to be added!
 
 # Dev Info
-Detailed project setup info can be found [here](docs\setup.md)
+Detailed project setup info can be found [here](docs/setup.md)
 
 ### Dev Run Steps
 1. Install or switch to Node.js v20.18.0
