@@ -17,9 +17,9 @@ jobs:
         node-version: [20.x]
 
     defaults:
-    run:
-      shell: bash
-      working-directory: ./mmst-app
+      run:
+        shell: bash
+        working-directory: ./mmst-app
 
     steps:
     - uses: actions/checkout@v4
