@@ -1,0 +1,51 @@
+{
+  "name": "mmst-app",
+  "productName": "mmst-app",
+  "version": "0.0.0",
+  "description": "Hong Kong Maritime Museum Ship Tracker",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint ./src",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format-check": "prettier --check \"**/*.{js,jsx,json,md}\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-react": "^7.25.7",
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-deb": "^7.5.0",
+    "@electron-forge/maker-rpm": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "@electron-forge/maker-zip": "^7.5.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron-forge/plugin-webpack": "^7.5.0",
+    "@electron/fuses": "^1.8.0",
+    "@eslint/js": "^9.12.0",
+    "@vercel/webpack-asset-relocator-loader": "1.7.3",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^6.0.0",
+    "electron": "32.1.2",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.10.0",
+    "node-loader": "^2.0.0",
+    "prettier": "3.3.3",
+    "style-loader": "^3.0.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Bytewise Coding Limited",
+    "email": "info@bytewisecoding.com"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
