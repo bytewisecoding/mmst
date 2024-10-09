@@ -1,19 +1,20 @@
 # Maritime Museum Ship Tracker (MMST)
-This project is building an app that will present educational content and a real-time ship-tracking map for the Hong Kong Maritime Museum.
+This project is building an app that will present educational content and a real-time ship-tracking map for the [Hong Kong Maritime Museum](https://www.hkmaritimemuseum.org).
 
 ### Folder Structure
-- design: UI/UX design files and docs
-- docs: Information docs, guides, and reports
-- mmst-app: Code for electron app
+- [design](design): UI/UX design files and docs
+- [docs](docs): Information docs, guides, and reports
+- [mmst-app](mmst-app): Code for electron app
 
 ### Tech Stack
-- Electron
+- Electron v32.1.2
 - NodeJS v20.18.0
-- React
+- React v18.3.1
+
 And more to be added!
 
 # Dev Info
-Detailed project setup info can be found [here](docs/setup.md)
+Detailed initial project setup info can be found [here](docs/setup.md)
 
 ### Dev Run Steps
 1. Install or switch to Node.js v20.18.0
